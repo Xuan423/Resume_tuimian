@@ -1,0 +1,162 @@
+%%--------------保研简历模板说明--------------%%
+%%-------本模板改自overleaf考研简历模板-------%%
+%%--------------Author: Xuan Li--------------%%
+%%------- email:xuanli2004@foxmail.com-------%%
+%%-----------------导言及宏包-----------------%%
+\documentclass[UTF8,AutoFakeBold]{resume}
+\usepackage{zh_CN-Adobefonts_external}
+\usepackage{linespacing_fix}
+\usepackage{cite}
+\usepackage{float}
+\usepackage{fontspec}
+\usepackage{graphicx}
+\usepackage{wrapfig} 
+\usepackage{hyperref}
+\usepackage[none]{hyphenat}
+\usepackage{amsmath,bm}
+\usepackage{booktabs}
+%%-----------------设置超链接颜色-----------------%%
+
+\hypersetup{
+  colorlinks, linkcolor=cyan, anchorcolor=cyan, citecolor=cyan}
+%%-----------------正文开始-----------------%%
+
+\begin{document}
+\pagenumbering{gobble}
+%%-----------------校徽及个人证件照-----------------%%
+
+\begin{figure}[h]
+        \flushleft
+        \includegraphics[height=1.5cm]{logo.jpg}
+    \end{figure}
+\vspace{-0.15\linewidth}
+\begin{figure}[h]
+        \flushright
+        \includegraphics[height=3.5cm,width=2.5cm]{2寸.jpg}
+    \end{figure}
+\vspace{-0.185\linewidth}
+%%-----------------基本情况介绍-----------------%%
+
+\begin{minipage}[t]{\textwidth}
+    \centering
+    \LARGE\kaishu\textbf{{张\quad 三}}
+\end{minipage}
+
+\begin{center}
+    \hspace{0.25em}{\small{\textbullet}}\hspace{0.25em}
+\faPhone \textbf{\hspace{0.2em}(+86)189-6298-6038}
+
+\hspace{0.25em}{\small{\textbullet}}\hspace{0.25em}
+\faEnvelope \hspace{0.25em}\textbf{\textit{xuanli2004@foxmail.com}}
+\end{center}
+
+%%-----------------教育背景-----------------%%
+\section{\makebox[0.75em][c]{\faGraduationCap}\hspace{0.25em} \fangsong\textbf{教育背景}}
+
+\begin{itemize}
+    \item
+    {\large\kaishu\textbf{苏州大学（211，双一流）\hspace{3cm}电气工程及其自动化专业\hspace{2.5cm}2021.09 \textasciitilde \ 至今}}
+
+    \begin{itemize}[nolistsep]
+    \item[\faThumbTack]  \kaishu \textbf{学业成绩:} 专业排名 2/125(1.6\%), \qquad  GPA 3.9 / 4.0.
+      \item[\faThumbTack] \kaishu\textbf{核心课程:}自动控制原理(95)，电机原理与电机拖动(95)，工程电磁场(98)，电路原理(97)，电力电子技术(93)，程序设计及应用(C语言)(99)，MATLAB系统分析与仿真(95)，复变函数与积分变换(97).
+      \item[\faThumbTack] \kaishu\textbf{等级证书：}全国大学英语四级、六级，全国计算机等级考试(二级Python语言程序设计).
+      \item[\faThumbTack] \kaishu\textbf{荣誉奖励：}创新创业特等奖学金，学习优秀一等奖学金（2次），综合奖学金（2次），社会工作专项奖学金（2次），三好学生（2次）.
+    \end{itemize}
+\end{itemize}
+%%-----------------科研经历-----------------%%
+
+\vspace{0.1em}
+\section{\hspace{0.25em}\makebox[0.75em][c]{\faFlask}\hspace{0.25em} \fangsong\textbf{科研经历}}
+\vspace{0.1em}
+
+\begin{itemize}
+    \sloppy{}
+    \item
+    {\large\kaishu\textbf{Joint Domain Adaptation Based Lightweight Approach for Cross-domain Diagnosis Compatible with Different Devices and Multimodal Sensing. \hspace{2.5cm} 第一作者\hspace{3cm} 2024.07 }}
+
+    \begin{itemize}[nolistsep]
+        \setlength{\leftmargin}{-2pt}
+        \item[\faThumbTack] \kaishu \textbf{杂志：}IEEE Sensors Journal (JCR Q1/ 中科院2区,现已录用). \quad 
+        \textbf{DOI：}\href{https://doi.org/10.1109/JSEN.2024.3430100}{10.1109/JSEN.2024.3430100}
+        \item[\faThumbTack] \textbf{Highlights：}
+            \begin{enumerate}
+                \item 提出了一种通用模型用于跨域和跨机器的旋转机械故障诊断;
+                \item 提出了一种基于轻量化模型的联合分布域适应方法，解决了模型诊断非振动信号时的模式崩溃问题;
+                \item 提出的模型适用于不同类型的信号，在拥有极小体积和计算量的前提下能够展现卓越的诊断性能.
+            \end{enumerate}
+    \end{itemize}
+    
+    \item
+    {\large\kaishu\textbf{苏州大学第二十五批大学生课外学术科研基金重点项目\hspace{1.2cm}主持人\hspace{1.5cm}2023.04 \textasciitilde \ 2023.11}}
+    \begin{itemize}
+        \item[\faThumbTack] \kaishu \textbf{项目名称：}SCARA机器人滚珠丝杆故障诊断轻量化模型研究
+        \item[\faThumbTack] \kaishu \textbf{担任工作：}带领团队与苏州市汇川科技公司开展产学研合作，以汇川SCARA机器人滚珠丝杆为研究对象，采集机器人电流信号，基于部分卷积方法设计网络块，构建跨域轻量化故障诊断模型.
+        \item[\faThumbTack] \kaishu \textbf{项目成果：}所研发模型的各项评估指标均通过了汇川技术的专业性验证，解决了工业用SCARA机器人人工巡检效率低，振动信号采集困难的问题.
+    \end{itemize}
+
+    \item 
+    {\large\kaishu\textbf{2023年大学生创新创业训练计划项目（省级）\hspace{2.8cm}核心成员\hspace{1.8cm}2023.05 \textasciitilde \ 至今}}
+
+    \begin{itemize}
+        \item[\faThumbTack] \kaishu \textbf{项目名称：}表面缺陷检测方法研究 —基于改进Otsu 方法
+        \item[\faThumbTack] \kaishu \textbf{担任工作：}基于前缀和、广度优先搜索等算法知识完成Otsu方法的改进，将主流算法的时间复杂度从$O(n^4)$降低至$O(n^2)$，并开展项目可视化相关工作.
+        \item[\faThumbTack] \kaishu \textbf{项目成果：}在ICIPCA发表题为《Two-dimensional Improved Otsu using Histogram Division-Calibration》的EI会议一篇, 授权软件著作权一项.
+    \end{itemize}
+\end{itemize}    
+%%-----------------竞赛经历-----------------%%
+
+\vspace{0.1em}
+\section{\hspace{0.25em}\makebox[0.75em][c]{\faTrophy}\hspace{0.25em} \fangsong\textbf{竞赛经历}}
+    \vspace{0.1em}
+
+\begin{itemize}
+    \sloppy{}
+    \item 
+    {\large\kaishu\textbf{第十四届蓝桥杯大赛Python程序设计大学A组\hspace{3.6cm}省级一等奖|国家级三等奖}}
+    \begin{itemize}
+        \item[\faThumbTack] \kaishu \textbf{担任工作：}利用二叉树，动态规划，深度优先搜素，记忆化搜索和剪枝等算法和数据结构知识，基于Python在规定的时间复杂度和空间复杂度下完成赛题要求.
+    \end{itemize}
+    
+    \item
+    {\large\kaishu\textbf{2023年CIMC中国智能制造挑战赛离散行业自动化工程实践方向\hspace{2cm}华东二赛区一等奖}}
+    \begin{itemize}
+        \item[\faThumbTack] \kaishu \textbf{担任工作：}担任队长，带领团队使用TIA Portal完成工业设备的PLC程序改错与设计优化，使用WinCC Professional 完成可视化人机交互界面的设计.
+    \end{itemize}  
+
+    \item 
+    {\large\kaishu\textbf{2023年美国大学生数学建模竞赛\hspace{7.8cm}Honorable Mention}}
+
+    \item
+    {\large\kaishu\textbf{苏州大学第二十三届“挑战杯”大学生课外学术科技作品竞赛\hspace{4cm}校级一等奖}}
+\end{itemize}
+%%-----------------学生工作-----------------%%
+
+\vspace{0.1em}
+\section{\hspace{0.25em}\makebox[0.75em][c]{\faPaperPlane}\hspace{0.25em} \fangsong\textbf{学生工作}}
+\begin{itemize}
+    \sloppy{}
+    \item 
+    {\large\kaishu\textbf{苏州大学2023级电气工程及其自动化1班班级助理\hspace{5.4cm}2023.09\textasciitilde 至今}}
+
+    \begin{itemize}
+        \item[\faThumbTack]  \kaishu 负责为新入学的本科生提供学业及生活指导.
+    \end{itemize}
+
+    \item
+    {\large\kaishu\textbf{苏州大学机电工程学院学生会发展联络中心主任\hspace{5.4cm}2022.09 \textasciitilde \ 2023.09}}
+
+    \begin{itemize}
+        \item[\faThumbTack]  \kaishu 负责统筹组织内各部门及组织外相关联系工作，负责统筹活动宣传海报及视频制作.
+    \end{itemize}
+\end{itemize}
+%%-----------------专业技能-----------------%%
+
+\vspace{0.1em}
+\section{\hspace{0.25em}\makebox[0.75em][c]{\faPuzzlePiece}\hspace{0.25em} \fangsong\textbf{专业技能}}
+\begin{itemize}
+    \item \kaishu \textbf{工程开发软件及编程语言：}熟悉 MDK-ARM Keil,CAD, TIA Portal, Multisim 等软件的基本操作， 熟练使用Python，C等程序设计语言，熟悉Matlab及Simulink的基本操作，熟练使用Pytorch搭建深度学习框架.
+    \item \kaishu \textbf{科研工具：} 熟练使用\LaTeX 进行写作排版，有较强的文件及图片处理能力，熟练使用Microsoft Visio，Adobe Illustrator，Origin等绘图工具，熟练使用Office进行PPT及表格处理.
+\end{itemize}
+%%-----------------END-----------------%%
+\end{document}
